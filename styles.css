@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fffbe5;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.brand {
+  margin: 0;
+  color: #efb71a;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.posts {
+  background-color: #f9e6b0;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  border-color: #cccccc;
+  background-color: #ebebeb;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 1rem;
+}
+
+textarea:focus {
+  outline: solid 2px #efb71a;
+}
+
+button[type="submit"] {
+  border: none;
+  background-color: #efb71a;
+  cursor: pointer;
+  padding: 0.5rem;
+  font-size: 16px;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15ch;
+  font-weight: bold;
+  color: white;
+}
