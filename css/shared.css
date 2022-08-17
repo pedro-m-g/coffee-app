@@ -28,10 +28,9 @@ header {
   padding-right: 1rem;
 }
 
-.posts {
-  background-color: #f9e6b0;
-  padding: 1rem;
-  margin-top: 2rem;
+.navbar {
+  display: flex;
+  justify-content: space-between;
 }
 
 .card {
